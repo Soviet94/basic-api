@@ -1,0 +1,14 @@
+plugins {
+    id 'project-conventions'
+}
+
+dependencies {
+    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+springBoot {
+    mainClass = 'com.example.api.ApiApplication'
+}
